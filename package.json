@@ -10,7 +10,8 @@
     "commit": "git-cz",
     "prepare": "husky",
     "commitlint": "commitlint --edit",
-    "release": "standard-version"
+    "release": "standard-version",
+    "test": ""
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",

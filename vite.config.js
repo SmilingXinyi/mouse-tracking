@@ -6,8 +6,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.js'),
-      name: 'UserActionTracker',
-      fileName: (format) => `user-action-tracker.${format}.js`,
+      name: 'MouseTracking',
+      fileName: (format) => `mt.${format}.js`,
       // 你可以根据需要选择不同的模块格式，如 'es', 'cjs', 'umd'
       formats: ['es', 'umd'],
     },
