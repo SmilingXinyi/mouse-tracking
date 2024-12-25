@@ -1,0 +1,30 @@
+{
+  "name": "mouse-tracking",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "commit": "git-cz",
+    "prepare": "husky",
+    "commitlint": "commitlint --edit",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "git-cz": "^4.9.0",
+    "husky": "^9.1.7",
+    "standard-version": "^9.5.0",
+    "vite": "^6.0.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+}
+}
